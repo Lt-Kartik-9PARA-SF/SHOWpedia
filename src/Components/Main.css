@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200&family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200&display=swap");
+
+.container {
+  background: url("https://hbomax-images.warnermediacdn.com/images/GXdbR_gOXWJuAuwEAACVH/tileburnedin?size=1280x720&partner=hbomaxcom&v=6a409f09891f75549fdb8d07dc969b63&host=art-gallery.api.hbo.com&language=en-us&w=1280");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 7%;
+  padding-left: 12.5%;
+  height: 100vh;
+}
+.input {
+  max-width: 1200px;
+  width: 70%;
+  height: 45%;
+  text-align: left;
+  padding: 10px 30px;
+  height: 355px;
+  background-color: #6871694d;
+}
+
+.heading {
+  display: inline-block;
+ 
+  font-weight: 500;
+  font-size: 50px;
+  color: #fff;
+}
+
+span.innerHeading {
+  display: inline-block;
+  
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+}
+
+.subHeading {
+  display: block;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+
+label {
+  margin: 0 5px 0 0;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.searchtip {
+  display: block;
+  color: yellow;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.search {
+  display: block;
+  width: 250px;
+  padding: 7px 5px;
+  color: black;
+  font-weight: 700;
+}
+.search:focus {
+  outline: none;
+}
+.showBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   background-color: #626363; 
+  background-color: #252424;
+  padding: 30px;
+}
+
+
+.show {
+  height: 400px;
+  width: 210px;
+  border: 1px solid white;
+  margin: 20px;
+  overflow: hidden;
+  background-color: #2b2b2b;
+  text-align: "left";
+  border-radius: 4px;
+}
+.show:hover {
+  box-shadow: 5px 5px rgba(128, 128, 128, 0.815);
+  transform: scale(1.1);
+}
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  color: cadetblue;
+}
+.language {
+  color: #c2c6c9;
+}
+
+.summary {
+  display: block;
+  margin-left: 30%;
+  margin-top: 3px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  border: 1.8px solid rgb(29, 192, 29);
+  color: rgb(195, 204, 204);
+  cursor: pointer;
+}
+
+.summary:hover {
+  
+  color: rgba(255, 0, 0, 0.904);
+}
+
+.summary1 {
+  padding: 7px;
+  color: aliceblue;
+  height: 340px;
+  overflow: hidden;
+}
+.summary1 h3 {
+  color: aquamarine;
+}
+
+.summary2 button {
+  display: inline-block;
+  padding: 7px;
+  margin-top: 5px;
+  border: 1.5px solid rgb(29, 192, 29);
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  color: cadetblue;
+  cursor: pointer;
+}
+.summary2 :hover {
+  color: rgba(255, 0, 0, 0.904);
+}
